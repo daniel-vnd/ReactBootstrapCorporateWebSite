@@ -8,6 +8,7 @@ import Works from './assets/components/works/Works';
 import OurTeams from './assets/components/outTeams/OurTeams';
 import Testimonials from './assets/components/testimonials/Testimonials';
 import Pricing from './assets/components/pricing/Pricing';
+import Blog from './assets/components/blog/Blog';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <OurTeams />
         <Testimonials />
         <Pricing />
+        <Blog />
       </main>
     </div>
   );
