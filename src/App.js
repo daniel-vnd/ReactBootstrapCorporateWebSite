@@ -9,6 +9,7 @@ import OurTeams from './assets/components/outTeams/OurTeams';
 import Testimonials from './assets/components/testimonials/Testimonials';
 import Pricing from './assets/components/pricing/Pricing';
 import Blog from './assets/components/blog/Blog';
+import Contact from './assets/components/contact/Contact';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Testimonials />
         <Pricing />
         <Blog />
+        <Contact />
       </main>
     </div>
   );
