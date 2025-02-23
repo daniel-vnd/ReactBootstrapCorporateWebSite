@@ -5,6 +5,7 @@ import Hero from './assets/components/hero/Hero';
 import AboutUs from './assets/components/aboutUs/AboutUs';
 import Services from './assets/components/services/Services';
 import Works from './assets/components/works/Works';
+import OurTeams from './assets/components/outTeams/OurTeams';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <AboutUs />
         <Services />
         <Works />
+        <OurTeams />
       </main>
     </div>
   );
