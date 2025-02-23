@@ -1,7 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Header from './assets/components/Header';
-import Hero from './assets/components/Hero';
+import Header from './assets/components/header/Header';
+import Hero from './assets/components/hero/Hero';
+import AboutUs from './assets/components/aboutUs/AboutUs';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       </header>
       <main>
         <Hero />
+        <AboutUs />
       </main>
     </div>
   );
