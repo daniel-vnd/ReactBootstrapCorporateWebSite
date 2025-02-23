@@ -10,6 +10,7 @@ import Testimonials from './assets/components/testimonials/Testimonials';
 import Pricing from './assets/components/pricing/Pricing';
 import Blog from './assets/components/blog/Blog';
 import Contact from './assets/components/contact/Contact';
+import Footer from './assets/components/footer/Footer';
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
         <Blog />
         <Contact />
       </main>
+      <footer id='footer'>
+        <Footer />
+      </footer>
     </div>
   );
 }
